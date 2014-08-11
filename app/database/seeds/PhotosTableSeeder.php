@@ -10,8 +10,8 @@ class PhotosTableSeeder extends Seeder {
 
     function __construct()
     {
-        $this->srcRootDir = base_path().'\app\database\seeds\listings';
-        $this->destRootDir = public_path().'\images\listings';
+        $this->srcRootDir = base_path().'/app/database/seeds/listings';
+        $this->destRootDir = public_path().'/images/listings';
 
         DB::table('photos')->delete();
     }
