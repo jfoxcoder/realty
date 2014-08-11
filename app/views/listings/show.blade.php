@@ -73,12 +73,12 @@
 
 
 @section('scripts')
-    {{ HTML::script('scripts\vendor\jssor\jssor.core.js') }}
-    {{ HTML::script('scripts\vendor\jssor\jssor.utils.js') }}
-    {{ HTML::script('scripts\vendor\jssor\jssor.slider.min.js') }}
+    {{ HTML::script('scripts/vendor/jssor/jssor.core.js') }}
+    {{ HTML::script('scripts/vendor/jssor/jssor.utils.js') }}
+    {{ HTML::script('scripts/vendor/jssor/jssor.slider.min.js') }}
 
-    {{ HTML::script('scripts\joseph\gallery.js') }}
+    {{ HTML::script('scripts/joseph/gallery.js') }}
 
-    {{ HTML::script('scripts\joseph\WishlistManager.js') }}
-    {{ HTML::script('scripts\joseph\wishlist.js') }}
+    {{ HTML::script('scripts/joseph/WishlistManager.js') }}
+    {{ HTML::script('scripts/joseph/wishlist.js') }}
 @stop
