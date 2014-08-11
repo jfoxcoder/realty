@@ -22,10 +22,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
+			'host'      => '162.243.223.161',
 			'database'  => 'realty',
-			'username'  => 'root',
-			'password'  => 'password',
+			'username'  => 'forge',
+			'password'  => '3dFa8QIJMpyXbOyVkJ5T',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
