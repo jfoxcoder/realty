@@ -1,5 +1,5 @@
 <?php
-dd(Config::get('database.connections.mysql'));
+//dd(Config::get('database.connections.mysql'));
 
 
 /**
