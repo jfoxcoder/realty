@@ -1,0 +1,1 @@
+C:\xampp\htdocs\realty\app/views/towns/create.blade.php

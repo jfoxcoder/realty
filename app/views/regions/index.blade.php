@@ -1,0 +1,1 @@
+C:\xampp\htdocs\realty\app/views/regions/index.blade.php

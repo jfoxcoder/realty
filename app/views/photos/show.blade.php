@@ -1,0 +1,1 @@
+C:\xampp\htdocs\realty\app/views/photos/show.blade.php
