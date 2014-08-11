@@ -234,7 +234,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="2" selection-start="8" selection-end="8" vertical-scroll-proportion="0.030681819" vertical-offset="0" max-vertical-offset="3969">
+            <state line="1" column="42" selection-start="48" selection-end="48" vertical-scroll-proportion="0.030681819" vertical-offset="0" max-vertical-offset="3969">
               <folding />
             </state>
           </provider>
@@ -243,7 +243,7 @@
       <file leaf-file-name="start.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap/start.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="863" selection-end="863" vertical-scroll-proportion="-5.25" vertical-offset="243" max-vertical-offset="1944">
+            <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="-1.5" vertical-offset="0" max-vertical-offset="1944">
               <folding />
             </state>
           </provider>
@@ -915,14 +915,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/start.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="863" selection-end="863" vertical-scroll-proportion="-5.25" vertical-offset="243" max-vertical-offset="1944">
+        <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="-1.5" vertical-offset="0" max-vertical-offset="1944">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="8" selection-end="8" vertical-scroll-proportion="0.030681819" vertical-offset="0" max-vertical-offset="3969">
+        <state line="1" column="42" selection-start="48" selection-end="48" vertical-scroll-proportion="0.030681819" vertical-offset="0" max-vertical-offset="3969">
           <folding />
         </state>
       </provider>

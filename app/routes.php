@@ -1,5 +1,5 @@
 <?php
-//dd(App::environment());
+dd(Config::get('database.connections.mysql'));
 
 
 /**
