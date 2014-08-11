@@ -1,5 +1,5 @@
 <?php
-dd(App::environment());
+//dd(App::environment());
 
 
 /**
