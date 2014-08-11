@@ -1,4 +1,6 @@
 <?php
+dd(App::environment());
+
 
 /**
  * Model Binding
