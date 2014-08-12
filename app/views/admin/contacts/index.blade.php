@@ -5,14 +5,12 @@
 
 <header class="row">
     <h1>Contact Messages</h1>
+    <em class="right">Contact test data auto-generated with <a href="https://github.com/fzaninotto/Faker">Faker</a> PHP library.</em>
 </header>
 
 
 
 <div class="row">
-
-
-
     <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
         @foreach($contacts as $c)
         <li data-contact="{{ $c->id }}">
