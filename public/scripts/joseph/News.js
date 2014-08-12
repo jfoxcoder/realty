@@ -1,8 +1,6 @@
-
-//$.growl({ title: "Growl", message: "The kitten is awake!" });
-//$.growl.error({ message: "The kitten is attacking!" });
-//$.growl.notice({ message: "The kitten is cute!" });
-//$.growl.warning({ message: "The kitten is ugly!" });
+/*
+*   Wrapper for jquery Growl to provide consistency and shorten client code.
+*/
 var News = (function () {
 
     var created = function (type, label) {
@@ -28,11 +26,6 @@ var News = (function () {
     var deleteError = function (type, message) {
         $.growl.error({ title: 'Delete ' + type, message : message});
     };
-
-
-
-
-
 
     var good = function (title, message) {
         $.growl.notice({ title: title, message : message});
@@ -61,8 +54,3 @@ var News = (function () {
     };
 
 })();
-
-
-
-
-

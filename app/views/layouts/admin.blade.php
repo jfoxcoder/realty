@@ -34,6 +34,7 @@
                 <li class="{{ set_active('admin') }}">{{ link_to_route('admin.home', 'Home') }}</li>
                 <li class="{{ set_active('admin/locations') }}">{{ link_to_route('admin.locations.index', 'Locations') }}</li>
                 <li class="{{ set_active('admin/listings') }}">{{ link_to_route('admin.listings.index', 'Listings') }}</li>
+                <li class="{{ set_active('admin/contacts') }}">{{ link_to_route('admin.contacts.index', 'Contacts') }}</li>
 
                 <li class="has-dropdown">
                     <a href="#">{{ Auth::user()->email }}</a>
@@ -67,8 +68,6 @@
 
     <!-- Foundation -->
     {{ HTML::script('scripts/vendor/foundation/foundation.js') }}
-
-    <!-- Foundation Add-ons -->
     {{ HTML::script('scripts/vendor/foundation/foundation.topbar.js') }}
     {{ HTML::script('scripts/vendor/foundation/foundation.reveal.js') }}
     {{ HTML::script('scripts/vendor/foundation/foundation.dropdown.js') }}

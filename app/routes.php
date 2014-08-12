@@ -52,6 +52,8 @@ Route::group(['before' => 'adminAuth', 'prefix' => 'admin', 'namespace' => 'admi
             'uses' => 'PhotosController@index'
         ]);
 
+        Route::resource('contacts', 'ContactsController', ['only' => ['index', 'destroy']]);
+
         Route::resource('photos', 'PhotosController');
 
         Route::get('locations',  [ 'as' => 'admin.locations.index', 'uses' => 'LocationsController@index']);
@@ -124,7 +126,8 @@ Route::get('/about', ['as' => 'about', 'uses' => 'PagesController@about']);
 
 # Contacts
 Route::get('/contact', ['as' => 'contact', 'uses' => 'ContactsController@create']);
-Route::resource('contacts', 'ContactsController');
+//Route::get('/contacts/store', ['as' => 'contacts.store', 'uses' => 'ContactsController@store']);
+Route::resource('contacts', 'ContactsController', ['only' => ['create', 'store']]);
 
 # Registration
 Route::get('/register', ['as' => 'register', 'uses' => 'RegistrationController@create']);

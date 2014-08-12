@@ -346,3 +346,45 @@ ul.location-crud-list {
   top: 20px;
 }
 
+.contact-box  {
+
+
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+
+  h4 {
+    margin-top: 0;
+
+  }
+
+  header {
+
+    border-bottom: 2px solid #ddd;
+
+    .show-date-listed-box {
+      margin-bottom: 5px;
+    }
+
+
+  }
+
+
+
+}
+.contact-email {
+  margin-bottom: 10px;
+  font-style: italic;
+  color: $primary-color;
+}
+.contact-delete-btn {
+  color: $alert-color;
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+}
+.contact-message {
+  overflow-y: auto;
+  height: 150px;
+  padding: 5px;
+}

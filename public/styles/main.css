@@ -7642,3 +7642,38 @@ ul.location-crud-list .location-tag.location-selected {
   position: relative;
   top: 20px;
 }
+
+.contact-box {
+  border: 2px solid #ddd;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.contact-box h4 {
+  margin-top: 0;
+}
+.contact-box header {
+  border-bottom: 2px solid #ddd;
+}
+.contact-box header .show-date-listed-box {
+  margin-bottom: 5px;
+}
+
+.contact-email {
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #008cba;
+}
+
+.contact-delete-btn {
+  color: #f04124;
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+}
+
+.contact-message {
+  overflow-y: auto;
+  height: 150px;
+  padding: 5px;
+}
