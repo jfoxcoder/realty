@@ -78,6 +78,8 @@ class PhotosController extends \BaseController {
 
                 $fullPath = $directory.'\\'.$filename;
 
+                dd($fullPath);
+
                 $newPhoto = ! file_exists($fullPath);
 
                 $photo->move($directory, $filename);
