@@ -14,22 +14,30 @@ class UserTableSeeder extends Seeder {
 
         DB::table('users')->delete();
 
+        $testPassword = '1234';
+
 
         $me = User::create(array(
             'email' => 'jfoxcoder@gmail.com',
-            'password' => '1234',
+            'password' => $testPassword,
+            'admin' => true
+        ));
+
+        $jeffrey = User::create(array(
+            'email' => 'jeffrey.Hong@visioncollege.ac.nz',
+            'password' => $testPassword,
             'admin' => true
         ));
 
         $homer = User::create(array(
            'email' => 'homer@gmail.com',
-            'password' => '1234',
+            'password' => $testPassword,
             'admin' => false
         ));
 
         $marge = User::create(array(
             'email' => 'marge@gmail.com',
-            'password' => '1234',
+            'password' => $testPassword,
             'admin' => false
         ));
 
