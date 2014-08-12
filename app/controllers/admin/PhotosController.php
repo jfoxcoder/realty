@@ -59,16 +59,19 @@ class PhotosController extends \BaseController {
 	{
 
 
-       // Log::info('PhotosController.Store');
-
         $listing = $this->getInputListing();
 
         if (! Input::hasFile('photos')) {
+
+            Log::info('no photos returning no photos message back to client');
+
             return JsonResponse::create(['ok' => false, 'message' => 'no photos']);
         }
 
         // get photos from input
         $photos = Input::file('photos');
+
+
 
         foreach($photos as $photo) {
             try {
@@ -78,7 +81,7 @@ class PhotosController extends \BaseController {
 
                 $fullPath = $directory.'\\'.$filename;
 
-                dd($fullPath);
+
 
                 $newPhoto = ! file_exists($fullPath);
 

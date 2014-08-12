@@ -82,11 +82,6 @@ class ListingsController extends \BaseController {
 	 */
 	public function edit(Listing $listing)
 	{
-        // todo: validate listing
-
-
-
-
         $this->injectEditCreateJavascriptVars($listing);
 
         return View::make('admin.listings.edit', compact('listing'));
@@ -117,25 +112,21 @@ class ListingsController extends \BaseController {
 
         $input = Input::all();
 
-
-
-
-
-
-
-
-
         // exit via exception on validation error
         $this->listingsForm->validate($input);
 
         $listing->title = $input['title'];
         $listing->price = $input['price'];
+        $listing->description = $input['description'];
 
-        $listing->land = $input['price'];
+        $listing->land = $input['land'];
         $listing->floor = $input['floor'];
         $listing->beds = $input['beds'];
         $listing->baths = $input['baths'];
         $listing->cars = $input['cars'];
+
+        $listing->street_number = $input['street_number'];
+        $listing->street_name = $input['street_name'];
 
         $listing->suburb_id = $input['suburb'];
 

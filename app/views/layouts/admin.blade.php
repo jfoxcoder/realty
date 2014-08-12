@@ -21,7 +21,7 @@
 
         <ul class="title-area">
             <li class="name">
-                <h1><a href="#">Realty</a></h1>
+                <h1>{{ link_to_route('home', 'Realty') }}</h1>
             </li>
             <li class="toggle-topbar menu-icon">
                 <a href="#"><span>Menu</span></a>
