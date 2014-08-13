@@ -5,14 +5,16 @@
 function debugUploads()
 {
     // test create directory
-    $dir = '~/default/public/images/listings/testdir';
+    //$dir = '~/default/public/images/listings/testdir';
 
-    $result = File::makeDirectory($dir);
+    dd(getcwd());
 
-    if ($result)
-        dd('makeDirectory returned true');
-    else
-        dd('makeDirectory returned false');
+//    $result = File::makeDirectory($dir);
+//
+//    if ($result)
+//        dd('makeDirectory returned true');
+//    else
+//        dd('makeDirectory returned false');
 }
 
 debugUploads();
