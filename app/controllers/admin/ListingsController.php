@@ -155,11 +155,6 @@ class ListingsController extends \BaseController {
         // common variables
 
         $vars = [
-            'photos' => [
-                'uploadUrl' => route('admin.photos.store'),
-                'deleteUrl' => route('admin.photos.store'), // id is attached via ajax
-                'downloadUrl' => route('admin.listings.photos.index', ['listingId' => $listing->id])
-            ],
             'listing' => [
                 'deleteUrl' => route('admin.listings.destroy', ['id' => $listing->id]),
                 'mode' => $mode

@@ -3,33 +3,17 @@
 
 @section('content')
 
-
+<div class="row">
+    <h2 class="left">Listing Details</h2>
+</div>
 
 <div id="#form-panel" class="panel-row row">
-
-    <h2 class="left">Listing Details</h2>
 
     {{ Form::model($listing, [
         'route' => ['admin.listings.update', $listing->id],
         'method' => 'put',
         'novalidate' => 'novalidate'
     ]) }}
-
-
-    <div class="toolbar right">
-        {{ link_to_route('admin.listings.index', 'Cancel', null, [
-                'id' => 'cancel-btn',
-                'class' => 'tiny alert button',
-                'title' => 'Discard changes and go back to listings page'
-        ]) }}
-
-        {{ Form::submit('Save', [
-            'id' => 'submitButton',
-            'class' => 'tiny success button',
-            'title' => 'Save Changes.'
-        ]) }}
-    </div>
-
 
     <!-- Title -->
     <div class="row">
@@ -154,98 +138,25 @@
 
         </fieldset>
     </div>
-    {{ Form::close() }}
 
-
-
-
-</div>
-
-
-
-
-<!-- Gallery -->
-<div id="gallery-panel" class="panel-row row">
-    <h2 class="left">Listing Photos</h2>
 
     <div class="toolbar right">
-        {{ Form::button('Uploader', [
-            'id' => 'open-upload-modal-button',
-            'class' => 'tiny success button',
-            'title' => 'Open upload dialog to add photos to listing.'
+        {{ link_to_route('admin.listings.index', 'Cancel', null, [
+        'id' => 'cancel-btn',
+        'class' => 'tiny alert button',
+        'title' => 'Discard changes and go back to listings page'
         ]) }}
 
-        {{ Form::button('Clear Selection', [
-            'id' => 'clear-button',
-            'class' => 'tiny button inactive-button',
-            'title' => 'Deselect all selected photos'
+        {{ Form::submit('Save', [
+        'id' => 'submitButton',
+        'class' => 'tiny success button',
+        'title' => 'Save Changes.'
         ]) }}
+    </div>
 
-        {{ Form::button('Delete Photo', [
-            'id' => 'delete-button',
-            'class' => 'tiny alert button inactive-button',
-            'title' => 'Delete the selected image files. Cannot be undone.',
-            'data-reveal-id' => 'confirm-delete-modal'
-        ]) }}
-
-    </div><!-- toolbar -->
-
-    <ul id="photo-list"
-        class="small-block-grid-2 medium-block-grid-4 large-block-grid-5 columns">
-    </ul>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{{-- Modals --}}
-
-<div id="upload-modal" class="reveal-modal tiny" data-reveal>
-    <h3>Upload Photos</h3>
-
-    {{ Form::open(['route' => 'admin.photos.store', 'id' => 'photo-form','files' => true]) }}
-
-    {{ Form::hidden('listingId', $listing->id) }}
-
-    {{ Form::file('photos', ['id' => 'fileInput', 'class' => 'left',  'style' => 'padding: 10px;', 'multiple' => 'multiple']) }}
-
-
-    {{-- {{ Form::reset('Clear', ['id' => 'resetUploadButton', 'class' => 'tiny primary button']) }} --}}
-
-    {{ Form::submit('Upload Photos', [
-        'id' => 'upload-button',
-        'class' => 'tiny success button right', 'style' => 'margin-left: 10px;',
-        'title' => 'Upload the chosen photos to the server.'
-    ]) }}
     {{ Form::close() }}
-
-    <a class="close-reveal-modal">&#215;</a>
 </div>
 
-
-
-<div id="confirm-delete-modal" class="reveal-modal tiny" data-reveal>
-    <h3>Confirm Photo Delete</h3>
-
-    {{ Form::button('Yes, delete the selected photo(s).', ['id' => 'confirm-delete-button', 'class' => 'small alert button right', 'style' => 'margin-left: 10px;']) }}
-
-    <a class="close-reveal-modal">&#215;</a>
-</div>
 @stop
 
 @section('scripts')
@@ -253,6 +164,4 @@
     {{ HTML::script('scripts/joseph/edit-listing.js') }}
     {{ HTML::script('scripts/joseph/LocationManager.js') }}
     {{ HTML::script('scripts/joseph/location-edit.js') }}
-    {{ HTML::script('scripts/joseph/PhotoManager.js') }}
-    {{ HTML::script('scripts/joseph/photos.js') }}
 @stop

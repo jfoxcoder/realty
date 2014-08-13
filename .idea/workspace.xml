@@ -186,19 +186,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhotosController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PhotosController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/admin/PhotosController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="17" selection-start="2852" selection-end="2852" vertical-scroll-proportion="0.64204544" vertical-offset="2918" max-vertical-offset="5400">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/photos/edit.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="33" selection-start="899" selection-end="899" vertical-scroll-proportion="29.916666" vertical-offset="1806" max-vertical-offset="2673">
+            <state line="124" column="5" selection-start="2619" selection-end="2619" vertical-scroll-proportion="-4.4444447" vertical-offset="2918" max-vertical-offset="5400">
               <folding />
             </state>
           </provider>
@@ -207,16 +198,16 @@
       <file leaf-file-name="ListingsController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/admin/ListingsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="190" column="31" selection-start="4332" selection-end="4356" vertical-scroll-proportion="-17.694445" vertical-offset="4277" max-vertical-offset="5157">
+            <state line="156" column="17" selection-start="3298" selection-end="3298" vertical-scroll-proportion="-47.694443" vertical-offset="2279" max-vertical-offset="5022">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="edit.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/admin/listings/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="236" column="44" selection-start="7857" selection-end="7857" vertical-scroll-proportion="-4.8333335" vertical-offset="6198" max-vertical-offset="7101">
+            <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.122727275" vertical-offset="0" max-vertical-offset="4644">
               <folding />
             </state>
           </provider>
@@ -250,7 +241,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/scripts/joseph/locations-crud.js" />
         <option value="$PROJECT_DIR$/app/controllers/admin/LocationsController.php" />
         <option value="$PROJECT_DIR$/app/models/RealtyEloquent.php" />
         <option value="$PROJECT_DIR$/app/models/Suburb.php" />
@@ -274,7 +264,6 @@
         <option value="$PROJECT_DIR$/app/config/app.php" />
         <option value="$PROJECT_DIR$/app/config/local/app.php" />
         <option value="$PROJECT_DIR$/app/config/local/database.php" />
-        <option value="$PROJECT_DIR$/app/controllers/admin/ListingsController.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/admin.blade.php" />
         <option value="$PROJECT_DIR$/app/views/contacts/create.blade.php" />
         <option value="$PROJECT_DIR$/app/views/admin/home.blade.php" />
@@ -301,6 +290,8 @@
         <option value="$PROJECT_DIR$/app/views/admin/listings/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/admin/photos/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/admin/PhotosController.php" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/ListingsController.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/listings/edit.blade.php" />
       </list>
     </option>
   </component>
@@ -857,13 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/listings/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="236" column="44" selection-start="7857" selection-end="7857" vertical-scroll-proportion="-4.8333335" vertical-offset="6198" max-vertical-offset="7101">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/default.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="10" selection-start="2145" selection-end="2145" vertical-scroll-proportion="-4.9444447" vertical-offset="2009" max-vertical-offset="2889">
@@ -880,21 +864,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/ListingsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="31" selection-start="4332" selection-end="4356" vertical-scroll-proportion="-17.694445" vertical-offset="4277" max-vertical-offset="5157">
+        <state line="156" column="17" selection-start="3298" selection-end="3298" vertical-scroll-proportion="-47.694443" vertical-offset="2279" max-vertical-offset="5022">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/photos/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="33" selection-start="899" selection-end="899" vertical-scroll-proportion="29.916666" vertical-offset="1806" max-vertical-offset="2673">
+        <state line="27" column="33" selection-start="899" selection-end="899" vertical-scroll-proportion="-1.2422146" vertical-offset="1806" max-vertical-offset="2673">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/PhotosController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="17" selection-start="2852" selection-end="2852" vertical-scroll-proportion="0.64204544" vertical-offset="2918" max-vertical-offset="5400">
+        <state line="124" column="5" selection-start="2619" selection-end="2619" vertical-scroll-proportion="-4.4444447" vertical-offset="2918" max-vertical-offset="5400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/listings/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.122727275" vertical-offset="0" max-vertical-offset="4644">
           <folding />
         </state>
       </provider>
