@@ -76,7 +76,7 @@ class Listing extends RealtyEloquent {
 
     public function getPhotosDirectory()
     {
-        return public_path()."\\images\\listings\\".$this->id;
+        return public_path().'/images/listings/'.$this->id;
     }
 
 

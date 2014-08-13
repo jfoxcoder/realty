@@ -79,7 +79,7 @@ class PhotosController extends \BaseController {
 
                 $directory = $listing->getPhotosDirectory();
 
-                $fullPath = $directory.'\\'.$filename;
+                $fullPath = $directory.'/'.$filename;
 
 
 

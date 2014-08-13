@@ -180,16 +180,34 @@
       <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="28" selection-start="107" selection-end="136" vertical-scroll-proportion="0.18409091" vertical-offset="0" max-vertical-offset="4671">
+            <state line="19" column="43" selection-start="460" selection-end="460" vertical-scroll-proportion="0.5829545" vertical-offset="0" max-vertical-offset="4671">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss">
+      <file leaf-file-name="PhotosController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/admin/PhotosController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="265" column="0" selection-start="3633" selection-end="3633" vertical-scroll-proportion="0.0" vertical-offset="6802" max-vertical-offset="10800">
+            <state line="79" column="41" selection-start="1695" selection-end="1695" vertical-scroll-proportion="-8.194445" vertical-offset="1622" max-vertical-offset="5130">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Listing.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Listing.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="0" selection-start="1507" selection-end="1507" vertical-scroll-proportion="-6.2222223" vertical-offset="1747" max-vertical-offset="3078">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Photo.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Photo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="-4.1944447" vertical-offset="254" max-vertical-offset="1134">
               <folding />
             </state>
           </provider>
@@ -285,7 +303,6 @@
         <option value="$PROJECT_DIR$/app/config/app.php" />
         <option value="$PROJECT_DIR$/app/config/local/app.php" />
         <option value="$PROJECT_DIR$/app/config/local/database.php" />
-        <option value="$PROJECT_DIR$/app/controllers/admin/PhotosController.php" />
         <option value="$PROJECT_DIR$/app/controllers/admin/ListingsController.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/admin.blade.php" />
         <option value="$PROJECT_DIR$/app/views/contacts/create.blade.php" />
@@ -297,7 +314,6 @@
         <option value="$PROJECT_DIR$/app/controllers/admin/ContactsController.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/default.blade.php" />
         <option value="$PROJECT_DIR$/public/scripts/joseph/WishlistManager.js" />
-        <option value="$PROJECT_DIR$/app/models/Listing.php" />
         <option value="$PROJECT_DIR$/app/controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss" />
         <option value="$PROJECT_DIR$/app/views/admin/contacts/index.blade.php" />
@@ -309,6 +325,8 @@
         <option value="$PROJECT_DIR$/app/views/pages/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/listings/show.blade.php" />
         <option value="$PROJECT_DIR$/app/views/partials/listings/gallery.blade.php" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/PhotosController.php" />
+        <option value="$PROJECT_DIR$/app/models/Listing.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
       </list>
     </option>
@@ -627,11 +645,6 @@
         <state line="8" column="26" selection-start="107" selection-end="107" vertical-scroll-proportion="0.23580787" vertical-offset="0" max-vertical-offset="916" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="231" selection-end="405" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="1134" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/listings/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="501" max-vertical-offset="1890" />
@@ -732,13 +745,6 @@
         <state line="102" column="47" selection-start="2214" selection-end="2214" vertical-scroll-proportion="0.23943663" vertical-offset="2476" max-vertical-offset="3186" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/PhotosController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="170" column="55" selection-start="3309" selection-end="3352" vertical-scroll-proportion="0.0" vertical-offset="4590" max-vertical-offset="5346">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/joseph/ContactsManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="63" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756" />
@@ -762,11 +768,6 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/ListingsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="5" selection-start="263" selection-end="263" vertical-scroll-proportion="0.57042253" vertical-offset="0" max-vertical-offset="710" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Listing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="28" selection-start="814" selection-end="814" vertical-scroll-proportion="1.1028169" vertical-offset="486" max-vertical-offset="3078" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Suburb.php">
@@ -883,9 +884,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="-4.1944447" vertical-offset="254" max-vertical-offset="1134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/PhotosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="41" selection-start="1695" selection-end="1695" vertical-scroll-proportion="-8.194445" vertical-offset="1622" max-vertical-offset="5130">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Listing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="1507" selection-end="1507" vertical-scroll-proportion="-6.2222223" vertical-offset="1747" max-vertical-offset="3078">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="107" selection-end="136" vertical-scroll-proportion="0.18409091" vertical-offset="0" max-vertical-offset="4671">
+        <state line="19" column="43" selection-start="460" selection-end="460" vertical-scroll-proportion="0.5829545" vertical-offset="0" max-vertical-offset="4671">
           <folding />
         </state>
       </provider>

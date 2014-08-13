@@ -20,7 +20,7 @@ function debugUploads()
         dd('makeDirectory returned false');
 }
 
-debugUploads();
+//debugUploads();
 
 
 
