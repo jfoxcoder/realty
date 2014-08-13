@@ -13,7 +13,7 @@
         </div>
 
         <div class="small-4 columns">
-        {{ Form::label('town', 'City') }}
+        {{ Form::label('town', 'Town') }}
         {{ Form::select('town', [], ['disabled' => 'disabled']) }}
         </div>
         <div class="small-4 columns">

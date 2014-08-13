@@ -13,14 +13,8 @@ $(function () {
     }
 
     // add listing location ids if in edit mode
-    if (Realty.location.mode === 'edit') {
+    if (Realty.location.mode !== 'create') {
         opts.values = Realty.location.values;
-
-
-    } else if (Realty.location.mode === 'create') {
-
-
     }
-
     LocationManager.init(opts);
 });

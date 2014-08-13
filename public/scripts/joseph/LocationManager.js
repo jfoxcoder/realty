@@ -6,7 +6,7 @@ var LocationManager = (function(){
     var locations = {};
 
     // The current region, town and suburb ids
-    var values = {};
+    var values;
 
     // edit|create
     var mode;
@@ -20,13 +20,16 @@ var LocationManager = (function(){
     var optionTemplate =
         _.template('<option value="<%= id %>"><%= name %></option>');
 
+    var disabledOptionTemplate =
+        _.template('<option disabled><%= name %></option>');
+
     // Template to build <optgroup> elements to group each region by Nth/sth island etc.
     var optgroupTemplate =
         _.template('<optgroup label="<%= island %>"><%= optionsHtml %></optgroup>');
 
 
     var OPT_DEF_REGION = '<option value="0">All Regions</option>';
-    var OPT_DEF_TOWN = '<option value="0">All Cities</option>';
+    var OPT_DEF_TOWN = '<option value="0">All Towns</option>';
     var OPT_DEF_SUBURB = '<option value="0">All Suburbs</option>';
     var OPT_LOADING = '<option>Loading...</option>';
 
@@ -42,12 +45,13 @@ var LocationManager = (function(){
 
         $.getJSON(url, function (response) {
             if (response.ok) {
-                loadOk(response.data)
-
                 if (mode === 'filter') {
                     $town.html(OPT_DEF_TOWN);
                     $suburb.html(OPT_DEF_SUBURB);
                 }
+                loadOk(response.data)
+
+
 
             } else {
                 loadError(response.message);
@@ -62,6 +66,8 @@ var LocationManager = (function(){
 
         populateRegions();
 
+        console.log('loadOk values=', values, 'now selecting ');
+
         selectOption($region, values.regionId);
         selectOption($town, values.townId);
         selectOption($suburb, values.suburbId);
@@ -70,6 +76,10 @@ var LocationManager = (function(){
 
 
     var selectOption = function($select, value) {
+
+
+        console.log('setting ', $select, 'to value', value);
+
         // select the option
         $('option[value=' + value + ']', $select).prop('selected', true);
 
@@ -95,7 +105,7 @@ var LocationManager = (function(){
 
             // Build the region/options for this island.
             _.forEach(island, function (region) {
-                regionHtml += optionTemplate(region);
+                regionHtml += region.enabled ? optionTemplate(region) : disabledOptionTemplate(region);
             })
 
             // Create the island optgroup and inject the regions.
@@ -117,6 +127,7 @@ var LocationManager = (function(){
     }
 
     var readSelectedRegion = function () {
+        console.log('reading selected region');
         var regionId = parseInt($region.val(), 0);
 
         selectedRegion = null;
@@ -129,6 +140,7 @@ var LocationManager = (function(){
     }
 
     var readSelectedTown = function () {
+        console.log('reading selected town');
         var townId = parseInt($town.val(), 0);
 
         selectedTown = null;
@@ -145,10 +157,14 @@ var LocationManager = (function(){
 
 
     var onRegion = function () {
+
+        console.log('onRegion');
+
         if (readSelectedRegion()) {
             var townsHtml = OPT_DEF_TOWN;
             townsHtml += _.map(selectedRegion.towns, function (town) {
-                return optionTemplate(town);
+
+                return town.enabled ? optionTemplate(town) : disabledOptionTemplate(town);
             });
         }
 
@@ -159,11 +175,13 @@ var LocationManager = (function(){
 
     var onTown = function () {
 
+        console.log('onTown');
+
         if (readSelectedTown()) {
             var suburbsHtml = OPT_DEF_SUBURB;
 
             suburbsHtml += _.map(selectedTown.suburbs, function (suburb) {
-                return optionTemplate(suburb);
+                return suburb.enabled ? optionTemplate(suburb) : disabledOptionTemplate(suburb);
             });
         }
         setOptionsHtml($suburb, suburbsHtml, selectedTown !== null);

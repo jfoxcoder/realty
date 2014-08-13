@@ -189,67 +189,67 @@
       <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="262" column="3" selection-start="3591" selection-end="3591" vertical-scroll-proportion="-4.4590163" vertical-offset="6802" max-vertical-offset="10800">
+            <state line="265" column="0" selection-start="3633" selection-end="3633" vertical-scroll-proportion="-5.7868853" vertical-offset="6802" max-vertical-offset="10800">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/partials/listings/list.blade.php">
+      <file leaf-file-name="LocationsController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/LocationsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="40" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.93771625" vertical-offset="105" max-vertical-offset="1215">
-              <folding>
-                <element signature="n#style#0;n#span#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PagesController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/PagesController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="40" selection-start="2026" selection-end="2026" vertical-scroll-proportion="-7.0555553" vertical-offset="2932" max-vertical-offset="5967">
+            <state line="43" column="48" selection-start="1046" selection-end="1046" vertical-scroll-proportion="-12.0" vertical-offset="729" max-vertical-offset="4482">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListingComposer.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/joseph/composers/ListingComposer.php">
+      <file leaf-file-name="LocationManager.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/scripts/joseph/LocationManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="864">
+            <state line="39" column="18" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="6318">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="36" selection-start="433" selection-end="433" vertical-scroll-proportion="-8.611111" vertical-offset="95" max-vertical-offset="1566">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/listings/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="61" selection-start="959" selection-end="959" vertical-scroll-proportion="-12.083333" vertical-offset="456" max-vertical-offset="2835">
+            <state line="54" column="0" selection-start="1371" selection-end="1371" vertical-scroll-proportion="0.15916955" vertical-offset="1320" max-vertical-offset="2997">
               <folding>
-                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#h3#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#h3#0;n#div#0;n#div#4;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WishesController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/WishesController.php">
+      <file leaf-file-name="gallery.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/partials/listings/gallery.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="5" selection-start="760" selection-end="760" vertical-scroll-proportion="-17.694445" vertical-offset="605" max-vertical-offset="1566">
-              <folding />
+            <state line="1" column="113" selection-start="203" selection-end="203" vertical-scroll-proportion="-0.75" vertical-offset="0" max-vertical-offset="3321">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WishlistManager.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/scripts/joseph/WishlistManager.js">
+      <file leaf-file-name="location-filter.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/scripts/joseph/location-filter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="28" selection-start="2238" selection-end="2238" vertical-scroll-proportion="0.0" vertical-offset="729" max-vertical-offset="3861">
+            <state line="9" column="27" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
               <folding />
             </state>
           </provider>
@@ -281,11 +281,8 @@
         <option value="$PROJECT_DIR$/app/models/Region.php" />
         <option value="$PROJECT_DIR$/app/views/errors/missing.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/LocationsController.php" />
-        <option value="$PROJECT_DIR$/public/scripts/joseph/location-filter.js" />
-        <option value="$PROJECT_DIR$/public/scripts/joseph/LocationManager.js" />
         <option value="$PROJECT_DIR$/app/controllers/ListingsController.php" />
         <option value="$PROJECT_DIR$/public/scripts/joseph/gallery.js" />
-        <option value="$PROJECT_DIR$/app/views/pages/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/admin/listings/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/admin/locations/index.blade.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/PhotosTableSeeder.php" />
@@ -310,12 +307,15 @@
         <option value="$PROJECT_DIR$/app/models/Listing.php" />
         <option value="$PROJECT_DIR$/app/controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss" />
-        <option value="$PROJECT_DIR$/app/views/partials/listings/gallery.blade.php" />
         <option value="$PROJECT_DIR$/app/views/admin/contacts/index.blade.php" />
         <option value="$PROJECT_DIR$/app/start/global.php" />
-        <option value="$PROJECT_DIR$/app/views/listings/show.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/WishesController.php" />
         <option value="$PROJECT_DIR$/app/views/partials/listings/list.blade.php" />
+        <option value="$PROJECT_DIR$/public/scripts/joseph/location-filter.js" />
+        <option value="$PROJECT_DIR$/public/scripts/joseph/LocationManager.js" />
+        <option value="$PROJECT_DIR$/app/views/pages/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/listings/show.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/partials/listings/gallery.blade.php" />
       </list>
     </option>
   </component>
@@ -451,218 +451,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wishes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joseph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joseph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="composers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -776,9 +564,9 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58280253" sideWeight="0.4997245" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958678" sideWeight="0.67310345" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17190082" sideWeight="0.6475584" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17190082" sideWeight="0.043524414" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40870488" sideWeight="0.4997245" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17190082" sideWeight="0.3524416" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17190082" sideWeight="0.95647556" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33541018" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -835,24 +623,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/Town.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="35" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="1269" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/errors/missing.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="51" selection-start="224" selection-end="224" vertical-scroll-proportion="0.3375" vertical-offset="0" max-vertical-offset="880" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/joseph/LocationManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="21" selection-start="2713" selection-end="2713" vertical-scroll-proportion="0.23362446" vertical-offset="2567" max-vertical-offset="5589" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/joseph/location-filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="43" selection-start="478" selection-end="478" vertical-scroll-proportion="0.5010917" vertical-offset="0" max-vertical-offset="916" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/joseph/wishlist.js">
@@ -960,11 +733,6 @@
         <state line="8" column="5" selection-start="211" selection-end="211" vertical-scroll-proportion="0.30422536" vertical-offset="0" max-vertical-offset="710" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/LocationsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="20" selection-start="3106" selection-end="3106" vertical-scroll-proportion="0.58169013" vertical-offset="3772" max-vertical-offset="4482" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/RegionsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="102" column="47" selection-start="2214" selection-end="2214" vertical-scroll-proportion="0.23943663" vertical-offset="2476" max-vertical-offset="3186" />
@@ -994,13 +762,6 @@
     <entry file="file://$PROJECT_DIR$/app/database/seeds/ContactsTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="34" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="810">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="10" selection-start="985" selection-end="985" vertical-scroll-proportion="-7.5" vertical-offset="567" max-vertical-offset="1566">
           <folding />
         </state>
       </provider>
@@ -1049,25 +810,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/partials/listings/gallery.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="477" selection-end="688" vertical-scroll-proportion="-0.79859155" vertical-offset="729" max-vertical-offset="3321">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/wishes/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="17" selection-start="98" selection-end="98" vertical-scroll-proportion="1.2777778" vertical-offset="208" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="262" column="3" selection-start="3591" selection-end="3591" vertical-scroll-proportion="-4.4590163" vertical-offset="6802" max-vertical-offset="10800">
           <folding />
         </state>
       </provider>
@@ -1121,16 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listings/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="61" selection-start="959" selection-end="959" vertical-scroll-proportion="-12.083333" vertical-offset="456" max-vertical-offset="2835">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/WishesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="5" selection-start="760" selection-end="760" vertical-scroll-proportion="-17.694445" vertical-offset="605" max-vertical-offset="1566">
@@ -1140,10 +875,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/partials/listings/list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="40" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.93771625" vertical-offset="105" max-vertical-offset="1215">
+        <state line="16" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.37716264" vertical-offset="105" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="265" column="0" selection-start="3633" selection-end="3633" vertical-scroll-proportion="-5.7868853" vertical-offset="6802" max-vertical-offset="10800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Town.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="14" selection-start="21" selection-end="21" vertical-scroll-proportion="0.061363637" vertical-offset="0" max-vertical-offset="1269">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/LocationsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="48" selection-start="1046" selection-end="1046" vertical-scroll-proportion="-12.0" vertical-offset="729" max-vertical-offset="4482">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/joseph/location-filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="27" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/joseph/LocationManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="18" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="6318">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="36" selection-start="433" selection-end="433" vertical-scroll-proportion="-8.611111" vertical-offset="95" max-vertical-offset="1566">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/partials/listings/gallery.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="113" selection-start="203" selection-end="203" vertical-scroll-proportion="-0.75" vertical-offset="0" max-vertical-offset="3321">
           <folding>
-            <element signature="n#style#0;n#span#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/listings/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="1371" selection-end="1371" vertical-scroll-proportion="0.15916955" vertical-offset="1320" max-vertical-offset="2997">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#h3#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#h3#0;n#div#0;n#div#4;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
