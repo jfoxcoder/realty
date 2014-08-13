@@ -4,7 +4,15 @@
 
 function debugUploads()
 {
-    dd('debugging uploads');
+    // test create directory
+    $dir = '~/default/public/images/listings/testdir';
+
+    $result = File::makeDirectory($dir);
+
+    if ($result)
+        dd('makeDirectory returned true');
+    else
+        dd('makeDirectory returned false');
 }
 
 debugUploads();
