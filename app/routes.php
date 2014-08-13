@@ -2,6 +2,15 @@
 //dd(Config::get('database.connections.mysql'));
 //dd(App::environment());
 
+function debugUploads()
+{
+    dd('debugging uploads');
+}
+
+debugUploads();
+
+
+
 
 /**
  * Model Binding
