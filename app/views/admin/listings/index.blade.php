@@ -40,6 +40,8 @@
                     <td>$&nbsp;{{ $l->getFormattedPrice() }}</td>
                     <td>
                         {{ link_to_route('admin.listings.edit', 'Edit', ['id' => $l->id], ['class' => 'button tiny']) }}
+                        {{ link_to_route('admin.photos.edit', 'Images', ['id' => $l->id], ['class' => 'button tiny']) }}
+
 
                         <button class="tiny alert button delete-listing-btn">Delete</button>
                     </td>

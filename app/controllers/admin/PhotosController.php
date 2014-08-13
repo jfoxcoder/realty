@@ -6,7 +6,9 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Response;
+use Illuminate\Support\Facades\View;
 use joseph\transformers\PhotoTransformer;
+use Laracasts\Utilities\JavaScript\Facades\JavaScript;
 use Listing;
 use Photo;
 use Symfony\Component\HttpFoundation\File\Exception\FileException;
@@ -133,7 +135,17 @@ class PhotosController extends \BaseController {
 	 */
 	public function edit($id)
 	{
-		//
+		$listing = Listing::findOrFail($id);
+
+        JavaScript::put([
+            'photos' => [
+                'uploadUrl' => route('admin.photos.store'),
+                'deleteUrl' => route('admin.photos.store'), // id is attached via ajax
+                'downloadUrl' => route('admin.listings.photos.index', ['listingId' => $listing->id])
+            ]
+        ]);
+
+        return View::make('admin.photos.edit', compact('listing'));
 	}
 
 	/**

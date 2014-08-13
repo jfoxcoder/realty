@@ -49,7 +49,6 @@
                 <!-- Guest -->
                 <li>{{ link_to_route('register', 'Register') }}</li>
                 <li>{{ link_to_route('login', 'Login') }}</li>
-                <li>{{ link_to_route('admin.login', 'Admin') }}</li>
             @else
                 <li class="has-dropdown">
                     <a href="#">{{ Auth::user()->email }}</a>
@@ -58,6 +57,7 @@
                     </ul>
                 </li>
             @endif
+            <li><em>{{ link_to_route('admin.login', 'Admin') }}</em></li>
         </ul>
     </section>
 </nav>
