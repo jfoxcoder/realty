@@ -7,14 +7,17 @@ function debugUploads()
     // test create directory
     //$dir = '~/default/public/images/listings/testdir';
 
-    dd(getcwd());
 
-//    $result = File::makeDirectory($dir);
-//
-//    if ($result)
-//        dd('makeDirectory returned true');
-//    else
-//        dd('makeDirectory returned false');
+    $dir = 'images/listings/testdir';
+
+    //dd(getcwd()); //string '/home/forge/default/public' (length=26)
+
+    $result = File::makeDirectory($dir);
+
+    if ($result)
+        dd('makeDirectory returned true');
+    else
+        dd('makeDirectory returned false');
 }
 
 debugUploads();
