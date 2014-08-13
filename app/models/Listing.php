@@ -50,6 +50,11 @@ class Listing extends RealtyEloquent {
         return $this->hasMany('Photo');
     }
 
+    public function getStreetAddress()
+    {
+        return$this->street_number.' '.$this->street_name;
+    }
+
 
 
 

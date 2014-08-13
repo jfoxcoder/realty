@@ -1,5 +1,5 @@
 <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 800px;
-        height: 456px; background: #191919; overflow: hidden;">
+        height: 456px; background: #191919; overflow: hidden; margin: 20px 0 20px; 0">
 
     <!-- Loading Screen -->
     <div u="loading" style="position: absolute; top: 0px; left: 0px;">

@@ -82,7 +82,16 @@ var WishlistManager = (function () {
 
 
     var addToWishlist = function () {
+
+
+
         $.post(postUrl, { listingId : $listingContainer.data('listing') })
+         .done(function() {
+            $.growl.notice({
+                title: $listingContainer.find('.listing-address').text(),
+                message : 'Added to wishlist'
+            });
+         })
          .fail(onWishRequestFail);
     };
 
@@ -90,6 +99,12 @@ var WishlistManager = (function () {
         $.ajax({
             type : 'DELETE',
             url : postUrl + '/' + $listingContainer.data('listing')
+        })
+        .done(function() {
+            $.growl.notice({
+                title: $listingContainer.find('.listing-address').text(),
+                message : 'Removed from wishlist'
+            });
         })
         .fail(function () {
             console.log('delete failed', arguments);

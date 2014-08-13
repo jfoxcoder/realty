@@ -3,6 +3,14 @@
 
 @section('content')
 
+@if (Auth::check())
+<?php
+$on = in_array($listing->id, $wishes);
+$wish = $on ? 'wish-on' : 'wish-off';
+$title = $on ? 'Remove from wishlist' : 'Add to wishlist';
+?>
+@endif
+
 <div class="row" style="margin-top: 80px;">
     <div class="small-9 columns">
         <h1>{{ $listing->title }}</h1>
@@ -22,6 +30,14 @@
             <h5>
             <span>{{ $listing->street_number }}</span>&nbsp;<span>{{ $listing->street_name }}</span>,&nbsp;<span>{{ $listing->suburb->name }}</span>
             </h5>
+        </div>
+        <div class="right" data-listing="{{ $listing->id }}">
+            @if(Auth::check())
+            <span style="height: 30px" class="btn icon-star3 {{ $wish }}" title="{{ $title}}"></span>
+            @else
+
+            <a href="{{ URL::route('login') }}" style="height: 30px" class="btn icon-star wish-off" title="Sign-in to create a wishlist"></a>
+            @endif
         </div>
     </div>
 </div>

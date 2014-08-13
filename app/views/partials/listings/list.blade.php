@@ -15,16 +15,21 @@
 
                 <a href="{{ URL::route('listings.show', ['id' => $listing->id]) }}"><img src="{{ $listing->getLeadPhotoUrl() }}" /></a>
 
-                <header>{{ $listing->title }}</header>
+                {{-- name, title, parameters, attributes --}}
+                <header><h5>{{ link_to_route('listings.show', $listing->title, ['id' => $listing->id], ['class' => 'listing-title-link']) }}</h5></header>
 
-                <section></section>
+                <section>
+                    <div>
+                        <strong>{{ $listing->suburb->name }}</strong>,&nbsp;<span class="listing-address">{{ $listing->getStreetAddress() }}</span>
+                    </div>
+                </section>
 
                 <footer>
                     @if(Auth::check())
-                    <div style="height: 30px" class="btn icon-heart {{ $wish }}" title="{{ $title}}"></div>
+                    <span style="height: 30px" class="btn icon-star3 {{ $wish }}" title="{{ $title}}"></span>
                     @else
 
-                    <a href="{{ URL::route('login') }}" style="height: 30px" class="btn icon-heart wish-off" title="Sign-in to create a wishlist"></a>
+                    <a href="{{ URL::route('login') }}" style="height: 30px" class="btn icon-star wish-off" title="Sign-in to create a wishlist"></a>
                     @endif
                 </footer>
             </article>

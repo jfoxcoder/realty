@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
+    {{ HTML::style('styles/jquery.growl.css') }}
     {{ HTML::style('styles/main.css') }}
     {{ HTML::style('styles/icon-fonts/style.css') }}
 
@@ -86,6 +87,8 @@
     {{ HTML::script('scripts/vendor/foundation/foundation.js') }}
     {{ HTML::script('scripts/vendor/foundation/foundation.topbar.js') }}
     {{ HTML::script('scripts/vendor/underscore.js') }}
+    <!-- User Notifications -->
+    {{ HTML::script('scripts/vendor/jquery.growl.js') }}
 
 
 

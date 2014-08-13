@@ -204,12 +204,13 @@ h2.form-heading {
   font-size: $btn-font-size;
 }
 
-.wish-on, .wish-off:hover {
+.wish-on {
   color: red;
 }
-.wish-off, .wish-on:hover {
+.wish-off {
   color: gray;
 }
+
 
 .processing {
   @include pulsateAnimation;
@@ -387,4 +388,8 @@ ul.location-crud-list {
   overflow-y: auto;
   height: 150px;
   padding: 5px;
+}
+
+.listing-title-link:hover {
+  text-decoration: underline;
 }

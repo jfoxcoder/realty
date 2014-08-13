@@ -130,5 +130,5 @@ HTML::macro('unit_label', function($for, $label, $unit, $symbol)
 |
 */
 
-View::composer('partials.listings.list', 'joseph\composers\ListingComposer');
+View::composer(['partials.listings.list', 'listings.show'], 'joseph\composers\ListingComposer');
 

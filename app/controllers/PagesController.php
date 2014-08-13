@@ -207,8 +207,10 @@ class PagesController extends \BaseController {
         }
 
         // no location parameters provided - return all listings
+        //$books = Book::with('author', 'publisher')->get();
 
-        return Listing::all();
+        return Listing::with('Suburb')->get();
+        //return Listing::all();
     }
 
 }
