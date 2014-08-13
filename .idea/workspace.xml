@@ -195,10 +195,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="list.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/partials/listings/list.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="36" selection-start="134" selection-end="134" vertical-scroll-proportion="-2.25" vertical-offset="0" max-vertical-offset="1161">
+            <state line="34" column="40" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.93771625" vertical-offset="105" max-vertical-offset="1215">
               <folding>
                 <element signature="n#style#0;n#span#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
@@ -237,10 +237,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WishesController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="WishesController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/WishesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="5" selection-start="760" selection-end="760" vertical-scroll-proportion="0.72386366" vertical-offset="605" max-vertical-offset="1566">
+            <state line="46" column="5" selection-start="760" selection-end="760" vertical-scroll-proportion="-17.694445" vertical-offset="605" max-vertical-offset="1566">
               <folding />
             </state>
           </provider>
@@ -310,12 +310,12 @@
         <option value="$PROJECT_DIR$/app/models/Listing.php" />
         <option value="$PROJECT_DIR$/app/controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss" />
-        <option value="$PROJECT_DIR$/app/views/partials/listings/list.blade.php" />
         <option value="$PROJECT_DIR$/app/views/partials/listings/gallery.blade.php" />
         <option value="$PROJECT_DIR$/app/views/admin/contacts/index.blade.php" />
         <option value="$PROJECT_DIR$/app/start/global.php" />
         <option value="$PROJECT_DIR$/app/views/listings/show.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/WishesController.php" />
+        <option value="$PROJECT_DIR$/app/views/partials/listings/list.blade.php" />
       </list>
     </option>
   </component>
@@ -1086,16 +1086,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/partials/listings/list.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="36" selection-start="134" selection-end="134" vertical-scroll-proportion="-2.25" vertical-offset="0" max-vertical-offset="1161">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/start/global.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="113" column="1" selection-start="3245" selection-end="3245" vertical-scroll-proportion="0.17159091" vertical-offset="2657" max-vertical-offset="3537">
@@ -1143,8 +1133,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/WishesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="5" selection-start="760" selection-end="760" vertical-scroll-proportion="0.72386366" vertical-offset="605" max-vertical-offset="1566">
+        <state line="46" column="5" selection-start="760" selection-end="760" vertical-scroll-proportion="-17.694445" vertical-offset="605" max-vertical-offset="1566">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/partials/listings/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="40" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.93771625" vertical-offset="105" max-vertical-offset="1215">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
