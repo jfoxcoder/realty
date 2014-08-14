@@ -192,7 +192,7 @@
       <file leaf-file-name="main.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="436" column="22" selection-start="5409" selection-end="5409" vertical-scroll-proportion="0.49473685" vertical-offset="11349" max-vertical-offset="14040">
+            <state line="436" column="19" selection-start="5406" selection-end="5406" vertical-scroll-proportion="0.49473685" vertical-offset="11349" max-vertical-offset="14040">
               <folding />
             </state>
           </provider>
@@ -917,7 +917,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="436" column="22" selection-start="5409" selection-end="5409" vertical-scroll-proportion="0.49473685" vertical-offset="11349" max-vertical-offset="14040">
+        <state line="436" column="19" selection-start="5406" selection-end="5406" vertical-scroll-proportion="0.49473685" vertical-offset="11349" max-vertical-offset="14040">
           <folding />
         </state>
       </provider>
