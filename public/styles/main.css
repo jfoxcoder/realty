@@ -7716,6 +7716,7 @@ option:disabled {
 }
 
 .listing-price {
+  font-size: 18px;
   color: #8b1122;
   font-weight: bold;
 }

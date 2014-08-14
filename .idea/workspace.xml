@@ -180,7 +180,7 @@
       <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="253" column="12" selection-start="3679" selection-end="3679" vertical-scroll-proportion="-12.4754095" vertical-offset="6070" max-vertical-offset="13203">
+            <state line="481" column="18" selection-start="6018" selection-end="6018" vertical-scroll-proportion="-10.4754095" vertical-offset="12348" max-vertical-offset="13230">
               <folding />
             </state>
           </provider>
@@ -198,8 +198,11 @@
       <file leaf-file-name="list.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/partials/listings/list.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="88" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.56401384" vertical-offset="348" max-vertical-offset="1215">
-              <folding />
+            <state line="31" column="83" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.56401384" vertical-offset="348" max-vertical-offset="1350">
+              <folding>
+                <element signature="n#style#0;n#span#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -262,8 +265,8 @@
         <option value="$PROJECT_DIR$/app/views/admin/locations/index.blade.php" />
         <option value="$PROJECT_DIR$/app/assets/zurb-foundation/scss/_joseph-foundation-overrides.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/default.blade.php" />
-        <option value="$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss" />
         <option value="$PROJECT_DIR$/public/scripts/joseph/LocationsCrudManager.js" />
+        <option value="$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss" />
         <option value="$PROJECT_DIR$/app/views/partials/listings/list.blade.php" />
       </list>
     </option>
@@ -972,7 +975,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="253" column="12" selection-start="3679" selection-end="3679" vertical-scroll-proportion="-12.4754095" vertical-offset="6070" max-vertical-offset="13203">
+        <state line="481" column="18" selection-start="6018" selection-end="6018" vertical-scroll-proportion="-10.4754095" vertical-offset="12348" max-vertical-offset="13230">
           <folding />
         </state>
       </provider>
@@ -986,8 +989,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/partials/listings/list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="88" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.56401384" vertical-offset="348" max-vertical-offset="1215">
-          <folding />
+        <state line="31" column="83" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.56401384" vertical-offset="348" max-vertical-offset="1350">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
