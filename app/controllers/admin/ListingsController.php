@@ -58,20 +58,23 @@ class ListingsController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+        $input = Input::all();
+
+        // associate the listing with the logged-in admin
+        $input['created_by'] = Auth::id();
+
+        // Workaround for mismatch between the form and model suburb field names
+        $input['suburb_id'] = $input['suburb'];
+
+        // exit via exception on validation error
+        $this->listingsForm->validate($input);
+
+        Listing::create($input);
+
+        return Redirect::back()->withInput()->with('Save OK');
 	}
 
-	/**
-	 * Display the specified resource.
-	 * GET /listings/{id}
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function show($id)
-	{
 
-	}
 
 	/**
 	 * Show the form for editing the specified resource.
@@ -97,12 +100,13 @@ class ListingsController extends \BaseController {
      */
     public function create()
     {
-        $listing = new Listing;
-        $listing->save();
+        JavaScript::put([
+            'location' => [
+                'url' => route('locations.index')
+            ]
+        ]);
 
-        $this->injectEditCreateJavascriptVars($listing, $mode = 'create');
-
-        return View::make('admin.listings.edit', compact('listing'));
+        return View::make('admin.listings.create');
     }
 
 
@@ -132,18 +136,13 @@ class ListingsController extends \BaseController {
 
         $listing->save();
 
-        //>with('message', 'Login Failed');
+
         return Redirect::back()->withInput()->with('Save OK');
-
-
-
-
 	}
 
 
 	public function destroy(Listing $listing)
 	{
-        Log::info('destroy '.$listing->id);
         $listing->delete();
 	}
 

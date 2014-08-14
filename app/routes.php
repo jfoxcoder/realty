@@ -37,7 +37,7 @@ Route::group(['before' => 'adminAuth', 'prefix' => 'admin', 'namespace' => 'admi
             'uses' => 'AdminSessionsController@destroy'
         ]);
 
-        //Route::get('/', 'AdminController@index');
+
 
         Route::get('/', [
             'as' => 'admin.home',

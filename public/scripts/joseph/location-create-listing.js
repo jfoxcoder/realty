@@ -1,3 +1,4 @@
+// configure location selects for creating a listing
 $(function () {
 
     LocationManager.init({
@@ -5,8 +6,7 @@ $(function () {
         $region : $('#region'),
         $town : $('#town'),
         $suburb : $('#suburb'),
-        mode : 'edit',
-        values : Realty.location.values
+        mode : 'create'
     });
 
 });

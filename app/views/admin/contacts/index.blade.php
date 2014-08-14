@@ -4,7 +4,7 @@
 @section('content')
 
 <header class="row">
-    <h1>Contact Messages</h1>
+    <h1>Manage Contact Messages</h1>
     <em class="right">Contact test data auto-generated with <a href="https://github.com/fzaninotto/Faker">Faker</a> PHP library.</em>
 </header>
 

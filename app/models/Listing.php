@@ -4,7 +4,12 @@
 
 class Listing extends RealtyEloquent {
 
-	protected $fillable = ['title', 'description', 'price', 'created_by'];
+	protected $fillable = [
+        'title', 'description', 'price',
+        'land', 'floor', 'beds', 'baths', 'cars',
+        'suburb_id', 'street_number', 'street_name',
+        'created_by'
+    ];
 
 
     /***

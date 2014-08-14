@@ -1,14 +1,15 @@
 @extends('layouts.admin')
 @section('title', 'Edit Property Images')
-
 @section('content')
-
 
 <!-- Gallery -->
 <div id="gallery-panel" class="panel-row row">
-    <h2 class="left">Listing Photos</h2>
+    <h3 class="left"><a href="{{ URL::route('admin.listings.edit', [ 'id' => $listing->id]) }}" style="text-decoration: underline;" title="Edit this listing">{{ $listing->getStreetAddress() }}</a></h3>
 
     <div class="toolbar right">
+
+
+
         {{ Form::button('Uploader', [
             'id' => 'open-upload-modal-button',
             'class' => 'tiny success button',
@@ -28,30 +29,15 @@
             'data-reveal-id' => 'confirm-delete-modal'
         ]) }}
 
+
+
     </div><!-- toolbar -->
+
 
     <ul id="photo-list"
         class="small-block-grid-2 medium-block-grid-4 large-block-grid-5 columns">
     </ul>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 {{-- Modals --}}
 

@@ -66,8 +66,6 @@ var LocationManager = (function(){
 
         populateRegions();
 
-        console.log('loadOk values=', values, 'now selecting ');
-
         selectOption($region, values.regionId);
         selectOption($town, values.townId);
         selectOption($suburb, values.suburbId);
@@ -76,10 +74,6 @@ var LocationManager = (function(){
 
 
     var selectOption = function($select, value) {
-
-
-        console.log('setting ', $select, 'to value', value);
-
         // select the option
         $('option[value=' + value + ']', $select).prop('selected', true);
 
@@ -105,7 +99,7 @@ var LocationManager = (function(){
 
             // Build the region/options for this island.
             _.forEach(island, function (region) {
-                regionHtml += region.enabled ? optionTemplate(region) : disabledOptionTemplate(region);
+                regionHtml += mode === 'create' || region.enabled ? optionTemplate(region) : disabledOptionTemplate(region);
             })
 
             // Create the island optgroup and inject the regions.
@@ -127,7 +121,7 @@ var LocationManager = (function(){
     }
 
     var readSelectedRegion = function () {
-        console.log('reading selected region');
+
         var regionId = parseInt($region.val(), 0);
 
         selectedRegion = null;
@@ -140,7 +134,6 @@ var LocationManager = (function(){
     }
 
     var readSelectedTown = function () {
-        console.log('reading selected town');
         var townId = parseInt($town.val(), 0);
 
         selectedTown = null;
@@ -158,13 +151,13 @@ var LocationManager = (function(){
 
     var onRegion = function () {
 
-        console.log('onRegion');
+
 
         if (readSelectedRegion()) {
             var townsHtml = OPT_DEF_TOWN;
             townsHtml += _.map(selectedRegion.towns, function (town) {
 
-                return town.enabled ? optionTemplate(town) : disabledOptionTemplate(town);
+                return mode === 'create' || town.enabled ? optionTemplate(town) : disabledOptionTemplate(town);
             });
         }
 
@@ -175,13 +168,13 @@ var LocationManager = (function(){
 
     var onTown = function () {
 
-        console.log('onTown');
+
 
         if (readSelectedTown()) {
             var suburbsHtml = OPT_DEF_SUBURB;
 
             suburbsHtml += _.map(selectedTown.suburbs, function (suburb) {
-                return suburb.enabled ? optionTemplate(suburb) : disabledOptionTemplate(suburb);
+                return mode === 'create' || suburb.enabled ? optionTemplate(suburb) : disabledOptionTemplate(suburb);
             });
         }
         setOptionsHtml($suburb, suburbsHtml, selectedTown !== null);
@@ -208,7 +201,7 @@ var LocationManager = (function(){
     return {
         init : function (opts) {
 
-            console.log('LocationManager received', opts);
+            //console.log('LocationManager received', opts);
 
             mode = opts.mode;
 
