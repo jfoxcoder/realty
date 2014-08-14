@@ -153,13 +153,7 @@ h2.form-heading {
   margin-bottom: 50px;
 }
 
-.listing-item-inner {
-  user-select: none;
-  //box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
-  box-shadow: 0px 0px 10px 0px $alert-color;
-  border: 1px solid $alert-color;
-  padding: 5px;
-}
+
 
 @mixin action-button($color) {
 
@@ -432,9 +426,44 @@ ul.location-crud-list {
   padding: 5px;
 }
 
-.listing-title-link:hover {
-  text-decoration: underline;
+
+.listing-item-inner {
+  user-select: none;
+  //box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 10px 0px $alert-color;
+  border: 1px solid $alert-color;
+  padding: 0;
+
+  margin-bottom: 50px;
+
+  header {
+    background-color: $alert-color;
+    padding: 0;
+    margin: 0;
+
+    > h5 {
+      margin: 0;
+    }
+
+    .listing-title-link {
+      color:white;
+      text-align: center;
+
+      &:hover {
+        text-decoration: underline;
+        color: white;
+      }
+    }
+  }
+
+  footer {
+    padding:  0 5px 0 5px ;
+  }
+
+
 }
+
+
 
 
 

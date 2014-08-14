@@ -7452,17 +7452,6 @@ h2.form-heading {
   margin-bottom: 50px;
 }
 
-.listing-item-inner {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-box-shadow: 0px 0px 10px 0px #8b1122;
-  box-shadow: 0px 0px 10px 0px #8b1122;
-  border: 1px solid #8b1122;
-  padding: 5px;
-}
-
 .action-icon {
   display: inline-block;
   color: #2daebf;
@@ -7677,8 +7666,35 @@ ul.location-crud-list .location-tag.location-selected {
   padding: 5px;
 }
 
-.listing-title-link:hover {
+.listing-item-inner {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-box-shadow: 0px 0px 10px 0px #8b1122;
+  box-shadow: 0px 0px 10px 0px #8b1122;
+  border: 1px solid #8b1122;
+  padding: 0;
+  margin-bottom: 50px;
+}
+.listing-item-inner header {
+  background-color: #8b1122;
+  padding: 0;
+  margin: 0;
+}
+.listing-item-inner header > h5 {
+  margin: 0;
+}
+.listing-item-inner header .listing-title-link {
+  color: white;
+  text-align: center;
+}
+.listing-item-inner header .listing-title-link:hover {
   text-decoration: underline;
+  color: white;
+}
+.listing-item-inner footer {
+  padding: 0 5px 0 5px;
 }
 
 .realty-logo {

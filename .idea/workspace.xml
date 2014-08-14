@@ -177,91 +177,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="edit.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/photos/edit.blade.php">
+      <file leaf-file-name="list.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/partials/listings/list.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="1306" selection-end="1306" vertical-scroll-proportion="-8.5" vertical-offset="855" max-vertical-offset="2322">
-              <folding />
+            <state line="27" column="23" selection-start="1147" selection-end="1147" vertical-scroll-proportion="-17.333334" vertical-offset="105" max-vertical-offset="1377">
+              <folding>
+                <element signature="n#style#0;n#span#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pages/index.blade.php">
+      <file leaf-file-name="main.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="8" selection-start="62" selection-end="62" vertical-scroll-proportion="-1.5" vertical-offset="0" max-vertical-offset="1404">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/default.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="40" selection-start="489" selection-end="489" vertical-scroll-proportion="-9.75" vertical-offset="0" max-vertical-offset="3105">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/admin.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="52" selection-start="569" selection-end="569" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="2808">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WishlistManager.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/scripts/joseph/WishlistManager.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="14" selection-start="2074" selection-end="2080" vertical-scroll-proportion="-11.384615" vertical-offset="2350" max-vertical-offset="3888">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap/start.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="6" selection-start="946" selection-end="946" vertical-scroll-proportion="-7.5" vertical-offset="243" max-vertical-offset="1944">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/config/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="29" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.092045456" vertical-offset="1296" max-vertical-offset="3510">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactsManager.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/scripts/joseph/ContactsManager.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="26" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/listings/create.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="33" selection-start="59" selection-end="59" vertical-scroll-proportion="-0.75" vertical-offset="0" max-vertical-offset="4590">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/listings/edit.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="31" selection-start="57" selection-end="57" vertical-scroll-proportion="-0.75" vertical-offset="0" max-vertical-offset="4644">
+            <state line="436" column="22" selection-start="5409" selection-end="5409" vertical-scroll-proportion="0.49473685" vertical-offset="11349" max-vertical-offset="14040">
               <folding />
             </state>
           </provider>
@@ -320,14 +251,14 @@
         <option value="$PROJECT_DIR$/app/views/admin/locations/index.blade.php" />
         <option value="$PROJECT_DIR$/app/assets/zurb-foundation/scss/_joseph-foundation-overrides.scss" />
         <option value="$PROJECT_DIR$/public/scripts/joseph/LocationsCrudManager.js" />
-        <option value="$PROJECT_DIR$/app/views/partials/listings/list.blade.php" />
-        <option value="$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss" />
         <option value="$PROJECT_DIR$/app/views/admin/photos/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/views/admin/listings/create.blade.php" />
         <option value="$PROJECT_DIR$/app/views/admin/listings/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/default.blade.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/admin.blade.php" />
         <option value="$PROJECT_DIR$/app/config/database.php" />
+        <option value="$PROJECT_DIR$/app/views/partials/listings/list.blade.php" />
+        <option value="$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss" />
       </list>
     </option>
   </component>
@@ -462,52 +393,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -621,9 +506,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958678" sideWeight="0.67310345" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17520662" sideWeight="0.5339703" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17520662" sideWeight="0.043524414" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40870488" sideWeight="0.4997245" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17520662" sideWeight="0.46602973" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17520662" sideWeight="0.95647556" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33541018" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -943,26 +828,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/partials/listings/list.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/views/admin/listings/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="83" selection-start="1386" selection-end="1386" vertical-scroll-proportion="-13.583333" vertical-offset="348" max-vertical-offset="1350">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="1" column="33" selection-start="59" selection-end="59" vertical-scroll-proportion="0.030681819" vertical-offset="0" max-vertical-offset="4590">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/admin/listings/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="386" column="18" selection-start="4849" selection-end="4849" vertical-scroll-proportion="-7.163934" vertical-offset="9985" max-vertical-offset="13257">
+        <state line="1" column="31" selection-start="57" selection-end="57" vertical-scroll-proportion="0.030681819" vertical-offset="0" max-vertical-offset="4644">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/joseph/ContactsManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="26" selection-start="398" selection-end="398" vertical-scroll-proportion="0.23580787" vertical-offset="0" max-vertical-offset="916">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/start/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="33" selection-start="596" selection-end="596" vertical-scroll-proportion="-2.6818182" vertical-offset="2657" max-vertical-offset="3537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="29" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.092045456" vertical-offset="1296" max-vertical-offset="3510">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/photos/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1306" selection-end="1306" vertical-scroll-proportion="-8.5" vertical-offset="855" max-vertical-offset="2322">
+        <state line="38" column="34" selection-start="1270" selection-end="1270" vertical-scroll-proportion="-28.5" vertical-offset="0" max-vertical-offset="2322">
           <folding />
         </state>
       </provider>
@@ -970,20 +873,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/pages/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="8" selection-start="62" selection-end="62" vertical-scroll-proportion="-1.5" vertical-offset="0" max-vertical-offset="1404">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/listings/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="33" selection-start="59" selection-end="59" vertical-scroll-proportion="-0.75" vertical-offset="0" max-vertical-offset="4590">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/listings/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="31" selection-start="57" selection-end="57" vertical-scroll-proportion="-0.75" vertical-offset="0" max-vertical-offset="4644">
           <folding />
         </state>
       </provider>
@@ -1002,37 +891,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/joseph/ContactsManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/start/global.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="33" selection-start="596" selection-end="596" vertical-scroll-proportion="-2.6818182" vertical-offset="2657" max-vertical-offset="3537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/joseph/WishlistManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="14" selection-start="2074" selection-end="2080" vertical-scroll-proportion="-11.384615" vertical-offset="2350" max-vertical-offset="3888">
+        <state line="100" column="28" selection-start="2154" selection-end="2154" vertical-scroll-proportion="-7.230769" vertical-offset="2512" max-vertical-offset="3888">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/start.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="6" selection-start="946" selection-end="946" vertical-scroll-proportion="-7.5" vertical-offset="243" max-vertical-offset="1944">
+        <state line="31" column="40" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.39886364" vertical-offset="243" max-vertical-offset="1944">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/database.php">
+    <entry file="file://$PROJECT_DIR$/app/views/partials/listings/list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="29" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.092045456" vertical-offset="1296" max-vertical-offset="3510">
+        <state line="27" column="23" selection-start="1147" selection-end="1147" vertical-scroll-proportion="-17.333334" vertical-offset="105" max-vertical-offset="1377">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#footer#0;n#article#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="436" column="22" selection-start="5409" selection-end="5409" vertical-scroll-proportion="0.49473685" vertical-offset="11349" max-vertical-offset="14040">
           <folding />
         </state>
       </provider>

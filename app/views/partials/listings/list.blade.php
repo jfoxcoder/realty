@@ -12,14 +12,15 @@
 
         <li data-listing="{{ $listing->id }}">
             <article class="listing-item-inner">
+                {{-- name, title, parameters, attributes --}}
+                <header><h5 class="text-center">{{ link_to_route('listings.show', $listing->title, ['id' => $listing->id], ['class' => 'listing-title-link']) }}</h5></header>
 
                 <a href="{{ URL::route('listings.show', ['id' => $listing->id]) }}"><img src="{{ $listing->getLeadPhotoUrl() }}" /></a>
 
-                {{-- name, title, parameters, attributes --}}
-                <header><h5>{{ link_to_route('listings.show', $listing->title, ['id' => $listing->id], ['class' => 'listing-title-link']) }}</h5></header>
+
 
                 <section>
-                    <div>
+                    <div class="text-center">
                         <strong>{{ $listing->suburb->name }}</strong>,&nbsp;<span class="listing-address">{{ $listing->getStreetAddress() }}</span>
                     </div>
                 </section>
