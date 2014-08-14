@@ -36,6 +36,7 @@
 
     <ul id="photo-list"
         class="small-block-grid-2 medium-block-grid-4 large-block-grid-5 columns">
+        <li>Loading images...</li>
     </ul>
 </div>
 

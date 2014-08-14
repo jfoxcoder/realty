@@ -7637,6 +7637,7 @@ ul.location-crud-list .location-tag.location-selected {
 .show-listing-price {
   color: #8b1122;
   font-size: 28px;
+  font-weight: 700;
   position: relative;
   top: 20px;
 }
