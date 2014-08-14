@@ -26,10 +26,10 @@
 
                 <footer>
                     @if(Auth::check())
-                    <span style="height: 30px" class="btn icon-star3 {{ $wish }}" title="{{ $title}}" data-address="{{ $listing->getStreetAddress() }}"></span>
+                    <span style="height: 30px" class="btn icon-star3 {{ $wish }}" title="{{ $title}}" data-address="{{ $listing->getStreetAddress() }}></span>
                     @else
 
-                    <a href="{{ URL::route('login') }}" style="height: 30px" class="btn icon-star wish-off" title="Sign-in to create a wishlist"></a>
+                    <a href="{{ URL::route('login') }}" style="height: 30px" class="btn icon-star3 wish-off" title="Sign-in to create a wishlist"></a>
                     @endif
 
                     <span class="right listing-price">$ {{ $listing->getFormattedPrice() }}</span>

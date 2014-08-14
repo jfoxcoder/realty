@@ -180,16 +180,7 @@
       <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="247" column="20" selection-start="3627" selection-end="3627" vertical-scroll-proportion="-3.180328" vertical-offset="6475" max-vertical-offset="13203">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocationsCrudManager.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/scripts/joseph/LocationsCrudManager.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="673" column="58" selection-start="16508" selection-end="16508" vertical-scroll-proportion="0.41048035" vertical-offset="17795" max-vertical-offset="22572">
+            <state line="253" column="12" selection-start="3679" selection-end="3679" vertical-scroll-proportion="-12.4754095" vertical-offset="6070" max-vertical-offset="13203">
               <folding />
             </state>
           </provider>
@@ -198,67 +189,17 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="31" selection-start="973" selection-end="973" vertical-scroll-proportion="-7.1944447" vertical-offset="524" max-vertical-offset="1404">
-              <folding>
-                <marker date="1407994971568" expanded="false" signature="100:117" placeholder="..." />
-                <marker date="1407994971568" expanded="true" signature="118:991" placeholder="..." />
-                <marker date="1407994971568" expanded="true" signature="151:984" placeholder="..." />
-                <marker date="1407994971568" expanded="true" signature="236:356" placeholder="..." />
-                <marker date="1407994971568" expanded="true" signature="395:519" placeholder="..." />
-                <marker date="1407994971568" expanded="true" signature="557:677" placeholder="..." />
-                <marker date="1407994971568" expanded="true" signature="708:940" placeholder="..." />
-                <marker date="1407994971568" expanded="false" signature="896:914" placeholder="..." />
-                <marker date="1407994971568" expanded="true" signature="1010:1067" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/default.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="44" selection-start="2245" selection-end="2245" vertical-scroll-proportion="-9.75" vertical-offset="1458" max-vertical-offset="3105">
-              <folding>
-                <element signature="n#style#0;n#a#0;n#li#7;n#ul#0;n#section#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocationsDb.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/scripts/joseph/LocationsDb.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="41" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0" vertical-offset="775" max-vertical-offset="6615">
+            <state line="29" column="31" selection-start="973" selection-end="973" vertical-scroll-proportion="-8.194445" vertical-offset="488" max-vertical-offset="1404">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/locations/index.blade.php">
+      <file leaf-file-name="list.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/partials/listings/list.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="928" selection-end="928" vertical-scroll-proportion="-12.75" vertical-offset="405" max-vertical-offset="3159">
-              <folding>
-                <marker date="1407995731855" expanded="true" signature="101:138" placeholder="..." />
-                <marker date="1407995731855" expanded="true" signature="174:922" placeholder="..." />
-                <marker date="1407995731855" expanded="true" signature="216:790" placeholder="..." />
-                <marker date="1407995731855" expanded="true" signature="257:332" placeholder="..." />
-                <marker date="1407995731855" expanded="true" signature="372:779" placeholder="..." />
-                <marker date="1407995731855" expanded="true" signature="416:764" placeholder="..." />
-                <marker date="1407995731855" expanded="true" signature="813:915" placeholder="..." />
-                <marker date="1407995731855" expanded="true" signature="962:1737" placeholder="..." />
-                <marker date="1407995731855" expanded="true" signature="1004:1636" placeholder="..." />
-                <marker date="1407995731855" expanded="true" signature="1045:1124" placeholder="..." />
-                <marker date="1407995731855" expanded="true" signature="1164:1625" placeholder="..." />
-                <marker date="1407995731855" expanded="true" signature="1208:1610" placeholder="..." />
-                <marker date="1407995731855" expanded="true" signature="1659:1730" placeholder="..." />
-                <marker date="1407995731855" expanded="true" signature="1793:2512" placeholder="..." />
-                <marker date="1407995731855" expanded="true" signature="1835:2409" placeholder="..." />
-                <marker date="1407995731855" expanded="true" signature="1876:1939" placeholder="..." />
-                <marker date="1407995731855" expanded="true" signature="1979:2398" placeholder="..." />
-                <marker date="1407995731855" expanded="true" signature="2023:2383" placeholder="..." />
-                <marker date="1407995731855" expanded="true" signature="2432:2505" placeholder="..." />
-              </folding>
+            <state line="31" column="88" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.56401384" vertical-offset="348" max-vertical-offset="1215">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -317,13 +258,13 @@
         <option value="$PROJECT_DIR$/app/views/admin/listings/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/listings/show.blade.php" />
         <option value="$PROJECT_DIR$/app/views/pages/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/partials/listings/list.blade.php" />
         <option value="$PROJECT_DIR$/public/scripts/joseph/WishlistManager.js" />
         <option value="$PROJECT_DIR$/app/views/admin/locations/index.blade.php" />
         <option value="$PROJECT_DIR$/app/assets/zurb-foundation/scss/_joseph-foundation-overrides.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/default.blade.php" />
         <option value="$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss" />
         <option value="$PROJECT_DIR$/public/scripts/joseph/LocationsCrudManager.js" />
+        <option value="$PROJECT_DIR$/app/views/partials/listings/list.blade.php" />
       </list>
     </option>
   </component>
@@ -958,13 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/partials/listings/list.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="26" selection-start="1081" selection-end="1081" vertical-scroll-proportion="-9.333333" vertical-offset="312" max-vertical-offset="1215">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/joseph/WishlistManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="105" column="48" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.0" vertical-offset="2081" max-vertical-offset="3888">
@@ -983,25 +917,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="0" selection-start="928" selection-end="928" vertical-scroll-proportion="-12.75" vertical-offset="405" max-vertical-offset="3159">
           <folding>
-            <marker date="1407995731855" expanded="true" signature="101:138" placeholder="..." />
-            <marker date="1407995731855" expanded="true" signature="174:922" placeholder="..." />
-            <marker date="1407995731855" expanded="true" signature="216:790" placeholder="..." />
-            <marker date="1407995731855" expanded="true" signature="257:332" placeholder="..." />
-            <marker date="1407995731855" expanded="true" signature="372:779" placeholder="..." />
-            <marker date="1407995731855" expanded="true" signature="416:764" placeholder="..." />
-            <marker date="1407995731855" expanded="true" signature="813:915" placeholder="..." />
-            <marker date="1407995731855" expanded="true" signature="962:1737" placeholder="..." />
-            <marker date="1407995731855" expanded="true" signature="1004:1636" placeholder="..." />
-            <marker date="1407995731855" expanded="true" signature="1045:1124" placeholder="..." />
-            <marker date="1407995731855" expanded="true" signature="1164:1625" placeholder="..." />
-            <marker date="1407995731855" expanded="true" signature="1208:1610" placeholder="..." />
-            <marker date="1407995731855" expanded="true" signature="1659:1730" placeholder="..." />
-            <marker date="1407995731855" expanded="true" signature="1793:2512" placeholder="..." />
-            <marker date="1407995731855" expanded="true" signature="1835:2409" placeholder="..." />
-            <marker date="1407995731855" expanded="true" signature="1876:1939" placeholder="..." />
-            <marker date="1407995731855" expanded="true" signature="1979:2398" placeholder="..." />
-            <marker date="1407995731855" expanded="true" signature="2023:2383" placeholder="..." />
-            <marker date="1407995731855" expanded="true" signature="2432:2505" placeholder="..." />
+            <marker date="1407995731855" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407995731855" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407995731855" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407995731855" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407995731855" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407995731855" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407995731855" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407995731855" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407995731855" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407995731855" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407995731855" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407995731855" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407995731855" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407995731855" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407995731855" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407995731855" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407995731855" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407995731855" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407995731855" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1020,23 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="31" selection-start="973" selection-end="973" vertical-scroll-proportion="-7.1944447" vertical-offset="524" max-vertical-offset="1404">
-          <folding>
-            <marker date="1407994971568" expanded="false" signature="100:117" placeholder="..." />
-            <marker date="1407994971568" expanded="true" signature="118:991" placeholder="..." />
-            <marker date="1407994971568" expanded="true" signature="151:984" placeholder="..." />
-            <marker date="1407994971568" expanded="true" signature="236:356" placeholder="..." />
-            <marker date="1407994971568" expanded="true" signature="395:519" placeholder="..." />
-            <marker date="1407994971568" expanded="true" signature="557:677" placeholder="..." />
-            <marker date="1407994971568" expanded="true" signature="708:940" placeholder="..." />
-            <marker date="1407994971568" expanded="false" signature="896:914" placeholder="..." />
-            <marker date="1407994971568" expanded="true" signature="1010:1067" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/default.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="44" selection-start="2245" selection-end="2245" vertical-scroll-proportion="-9.75" vertical-offset="1458" max-vertical-offset="3105">
@@ -1046,16 +963,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss">
+    <entry file="file://$PROJECT_DIR$/public/scripts/joseph/LocationsCrudManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="247" column="20" selection-start="3627" selection-end="3627" vertical-scroll-proportion="-3.180328" vertical-offset="6475" max-vertical-offset="13203">
+        <state line="673" column="58" selection-start="16508" selection-end="16508" vertical-scroll-proportion="0.41048035" vertical-offset="17795" max-vertical-offset="22572">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/joseph/LocationsCrudManager.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/zurb-foundation/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="673" column="58" selection-start="16508" selection-end="16508" vertical-scroll-proportion="0.41048035" vertical-offset="17795" max-vertical-offset="22572">
+        <state line="253" column="12" selection-start="3679" selection-end="3679" vertical-scroll-proportion="-12.4754095" vertical-offset="6070" max-vertical-offset="13203">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="31" selection-start="973" selection-end="973" vertical-scroll-proportion="-8.194445" vertical-offset="488" max-vertical-offset="1404">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/partials/listings/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="88" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.56401384" vertical-offset="348" max-vertical-offset="1215">
           <folding />
         </state>
       </provider>
