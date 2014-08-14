@@ -134,6 +134,8 @@ var LocationsCrudManager = (function () {
             endpoints : opts.endpoints
         });
 
+
+
         // request location data
         LocationsDb.load(onLoaded, onLoadFail);
     };
@@ -618,7 +620,7 @@ var LocationsCrudManager = (function () {
     var onUpdateTown = function (updatedTown) {
         News.updated('Town', updatedTown.name);
         var townItem = findTownItem(updatedTown.id);
-        townItem.town = updatedTown;
+        townItem.town.name = updatedTown.name;
         townItem.render();
         closeModal('#edit-town-modal');
     };
@@ -670,7 +672,7 @@ var LocationsCrudManager = (function () {
     var onUpdateSuburb = function (updatedSuburb) {
         News.updated('Suburb', updatedSuburb.name);
         var suburbItem = findSuburbItem(updatedSuburb.id);
-        suburbItem.suburb = updatedSuburb;
+        suburbItem.suburb.name = updatedSuburb.name;
         suburbItem.render();
         closeModal('#edit-suburb-modal');
     };

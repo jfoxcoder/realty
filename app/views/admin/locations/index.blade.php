@@ -17,13 +17,13 @@
             <div class="location-toolbar ">
             <span id="create-region-btn" class="icon-plus icon-btn" title="Create Region"></span>
             <span id="delete-region-btn" class="icon-minus icon-btn icon-btn-disabled" title="Delete Region"></span>
-            <span id="edit-region-btn" class="icon-pencil2 icon-btn icon-btn-disabled" title="Edit Region"></span>
+            <span id="edit-region-btn" class="icon-pencil icon-btn icon-btn-disabled" title="Edit Region"></span>
             </div>
         </div>
     </div>
 
     <div class="row">
-        <ul id="region-list" class="location-crud-list"></ul>
+        <ul id="region-list" class="location-crud-list"><li>Loading locations...</li></ul>
     </div>
 </div>
 
@@ -42,7 +42,7 @@
             <div class="location-toolbar ">
                 <span id="create-town-btn" class="icon-plus icon-btn" title="Create District, City or Town"></span>
                 <span id="delete-town-btn" class="icon-minus icon-btn icon-btn-disabled" title="Delete District, City or Town"></span>
-                <span id="edit-town-btn" class="icon-pencil2 icon-btn icon-btn-disabled" title="Edit District, City or Town"></span>
+                <span id="edit-town-btn" class="icon-pencil icon-btn icon-btn-disabled" title="Edit District, City or Town"></span>
             </div>
         </div>
     </div>
@@ -83,7 +83,7 @@
             <div class="location-toolbar ">
                 <span id="create-suburb-btn" class="icon-plus icon-btn" title="Create Suburb"></span>
                 <span id="delete-suburb-btn" class="icon-minus icon-btn icon-btn-disabled" title="Delete Suburb"></span>
-                <span id="edit-suburb-btn" class="icon-pencil2 icon-btn icon-btn-disabled" title="Edit Suburb"></span>
+                <span id="edit-suburb-btn" class="icon-pencil icon-btn icon-btn-disabled" title="Edit Suburb"></span>
             </div>
         </div>
     </div>

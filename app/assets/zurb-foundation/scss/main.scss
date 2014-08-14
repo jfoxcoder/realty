@@ -1,4 +1,4 @@
-@import 'normalize', 'foundation', 'joseph-foundation-overrides', 'joseph-mixins';
+@import 'normalize', 'foundation\settings', 'foundation', 'joseph-foundation-overrides', 'joseph-mixins';
 
 $bg-color: white;
 $photolist-bg-color: white;//#efefef;
@@ -155,22 +155,10 @@ h2.form-heading {
 
 .listing-item-inner {
   user-select: none;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+  //box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 10px 0px $alert-color;
+  border: 1px solid $alert-color;
   padding: 5px;
-
-  > img {
-
-  }
-
-  > header {
-
-  }
-  > section {
-
-  }
-  > footer {
-
-  }
 }
 
 @mixin action-button($color) {
@@ -205,7 +193,7 @@ h2.form-heading {
 }
 
 .wish-on {
-  color: red;
+  color: $alert-color;
 }
 .wish-off {
   color: gray;
@@ -244,13 +232,13 @@ ul.location-crud-list {
     margin-right: 20px;
     margin-bottom: 10px;
     padding: 10px;
-    background-color: $primary-color;
+    background-color: lighten($primary-color, 30%);
     color:white;
     border: 3px solid transparent;
 
     &.location-selected {
       border-color: white;
-      background-color: $warning-color;
+      background-color: $primary-color;
       @include waveAnimation;
     }
   }
@@ -259,56 +247,109 @@ ul.location-crud-list {
 .location-toolbar {
   padding-top: 10px;
 
-  .icon-btn {
-    font-size: 24px;
-    margin-left: 10px;
+  &:hover {
+    cursor: pointer;
+  }
 
-
-
-
-
-
-    &.icon-pencil2 {
-      color: $primary-color;
-
-      &:hover {
-        color: darken($primary-color, 20%);
-      }
-    }
-
-
-    &.icon-plus {
-      color: $success-color;
-      &:hover {
-        color: darken($success-color, 20%);
-      }
-    }
-    &.icon-minus {
-      color: $alert-color;
-
-      &:hover {
-        color: darken($alert-color, 20%);
-      }
-    }
-
-    &.icon-btn-disabled {
-      cursor: no-drop;
-      opacity: .3;
-    }
-
-
-
-    &:hover {
-      cursor: pointer;
-      transform: translateY(2px);
-    }
-
-    &:active {
-      color: yellow;
-      transform: translateY(2px);
-    }
+  &:active {
+    color: yellow;
   }
 }
+
+
+
+
+.icon-btn {
+  font-size: 24px !important;
+  margin-left: 10px;
+
+  &.icon-pencil {
+    color: $primary-color;
+
+    &:hover {
+      color: darken($primary-color, 20%);
+    }
+  }
+
+
+  &.icon-plus {
+    color: $success-color;
+    &:hover {
+      color: darken($success-color, 20%);
+    }
+  }
+  &.icon-minus {
+    color: $alert-color;
+
+    &:hover {
+      color: darken($alert-color, 20%);
+    }
+  }
+
+  &.icon-btn-disabled {
+    cursor: no-drop;
+    opacity: .3;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -341,7 +382,7 @@ ul.location-crud-list {
 .show-listing-price {
 
 
-  color: #666;
+  color: $alert-color;
   font-size: 28px;
   position: relative;
   top: 20px;
@@ -392,4 +433,52 @@ ul.location-crud-list {
 
 .listing-title-link:hover {
   text-decoration: underline;
+}
+
+
+
+.realty-logo {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  height: 30px;
+
+  > .logo-kiwi {
+
+    letter-spacing: 5px;
+    background-color: $alert-color;
+    padding: 1px 5px;
+    border:2px solid white;
+  }
+
+  > .logo-realty {
+    font-weight: bold;
+    padding: 3px 8px;
+    background-color: white;
+    color: $alert-color;
+  }
+}
+
+.top-bar-section .admin-nav-link {
+
+  color: white;
+
+  font : {
+    weight: normal;
+    size: 13px;
+  }
+}
+
+option {
+  font-weight: bold;
+  color: black;
+}
+option:disabled {
+  font-weight: normal;
+  color: #bbb;
+}
+
+.listing-price {
+  color: $alert-color;
+  font-weight: bold;
 }

@@ -8,7 +8,7 @@
 </style>
 
 <header class="row">
-    <h1>Realty Admin Area</h1>
+    <h1>Administration</h1>
 </header>
 
 

@@ -46,8 +46,11 @@
 
 // We use these to control various global styles
 // $body-bg: #fff;
+
 // $body-font-color: #222;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
 
@@ -61,10 +64,17 @@
 
 // We use these as default colors throughout
 // $primary-color: #008CBA;
-// $secondary-color: #e7e7e7;
+$primary-color: #151EA6;
+//$secondary-color: #e7e7e7;
 // $alert-color: #f04124;
+$alert-color: #8B1122;
+$alert-color-dark: darken($alert-color, 15%);
 // $success-color: #43AC6A;
+$success-color: #41AD16;
+
 // $warning-color: #f08a24;
+$warning-color: #E58A29;
+
 // $info-color: #a0d3e8;
 
 // We use these to make sure border radius matches unless we want it different.
@@ -125,7 +135,7 @@
 
 // We use these to control header font styles
 // $header-font-family: $body-font-family;
-// $header-font-weight: $font-weight-normal;
+$header-font-weight: 700;
 // $header-font-style: normal;
 // $header-font-color: #222;
 // $header-line-height: 1.4;
@@ -1186,7 +1196,8 @@
 
 // Background color for the top bar
 // $topbar-bg-color: #333;
-// $topbar-bg: $topbar-bg-color;
+$topbar-bg-color: $alert-color;
+$topbar-bg: $topbar-bg-color;
 
 // Height and margin
 // $topbar-height: 45px;
@@ -1194,10 +1205,14 @@
 
 // Controlling the styles for the title in the top bar
 // $topbar-title-weight: $font-weight-normal;
+$topbar-title-weight: 700;
 // $topbar-title-font-size: rem-calc(17);
 
 // Style the top bar dropdown elements
 // $topbar-dropdown-bg: #333;
+$topbar-dropdown-bg: $alert-color;
+
+
 // $topbar-dropdown-link-color: #fff;
 // $topbar-dropdown-link-bg: #333;
 // $topbar-dropdown-link-weight: $font-weight-normal;
@@ -1210,16 +1225,22 @@
 // $topbar-link-color-hover: #fff;
 // $topbar-link-color-active: #fff;
 // $topbar-link-color-active-hover: #fff;
+
 // $topbar-link-weight: $font-weight-normal;
+
 // $topbar-link-font-size: rem-calc(13);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 // $topbar-link-bg: $topbar-bg;
 // $topbar-link-bg-color-hover: #555555;
 // $topbar-link-bg-hover: #272727;
+$topbar-link-bg-hover: lighten($alert-color, 5%);
 // $topbar-link-bg-active: $primary-color;
+$topbar-link-bg-active: $alert-color-dark;
+
 // $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
+$topbar-link-bg-active-hover: $alert-color-dark;
 // $topbar-link-font-family: $body-font-family;
-// $topbar-link-text-transform: none;
+$topbar-link-text-transform: uppercase;
 // $topbar-link-padding: $topbar-height / 3;
 
 // $topbar-button-font-size: 0.75rem;

@@ -88,7 +88,8 @@ var WishlistManager = (function () {
         $.post(postUrl, { listingId : $listingContainer.data('listing') })
          .done(function() {
             $.growl.notice({
-                title: $listingContainer.find('.listing-address').text(),
+                //title: $listingContainer.find('.listing-address').text(),
+                title: $wishBtn.data('address'),
                 message : 'Added to wishlist'
             });
          })
@@ -102,7 +103,7 @@ var WishlistManager = (function () {
         })
         .done(function() {
             $.growl.notice({
-                title: $listingContainer.find('.listing-address').text(),
+                title: $wishBtn.data('address'),
                 message : 'Removed from wishlist'
             });
         })

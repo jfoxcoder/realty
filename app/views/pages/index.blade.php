@@ -36,12 +36,6 @@
     @include('partials.listings.list', $listings)
 </div>
 
-
-
-
-
-
-
 @stop
 
 

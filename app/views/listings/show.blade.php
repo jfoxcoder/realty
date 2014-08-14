@@ -60,7 +60,7 @@ $title = $on ? 'Remove from wishlist' : 'Add to wishlist';
 
         <h3>Property Description<div data-listing="{{ $listing->id }}" class="left">
                 @if(Auth::check())
-                <span style="height: 30px" class="btn icon-star3 {{ $wish }}" title="{{ $title}}"></span>
+                <span style="height: 30px" class="btn icon-star3 {{ $wish }}" title="{{ $title }}" data-address="{{ $listing->getStreetAddress() }}"></span>
                 @else
 
                 <a href="{{ URL::route('login') }}" style="height: 30px" class="btn icon-star3 wish-off" title="Sign-in to create a wishlist"></a>

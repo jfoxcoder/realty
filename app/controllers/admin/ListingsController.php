@@ -1,12 +1,8 @@
 <?php namespace admin;
 
-
-
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Input;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Redirect;
-use Illuminate\Support\Facades\URL;
 use joseph\forms\UpdateListingsForm;
 use Laracasts\Utilities\JavaScript\Facades\JavaScript;
 use View;
@@ -34,15 +30,14 @@ class ListingsController extends \BaseController {
 
         JavaScript::put([
             'listings' => [
-
-                // Injecting the store route instead of the destroy route
-                // because the the destroy route returns the url encoded
-                // id parameter placeholder string (making it completely useless).
                 'deleteUrl' => route('admin.listings.store')
             ]
         ]);
 
-        return View::make('admin.listings.index', ['listings' => $listings, 'sorter' => Listing::getSorter()]);
+        return View::make('admin.listings.index', [
+            'listings' => $listings,
+            'sorter' => Listing::getSorter()
+        ]);
 	}
 
 
@@ -113,6 +108,7 @@ class ListingsController extends \BaseController {
 	public function update($listing)
 	{
 
+        // todo: mass assignment
 
         $input = Input::all();
 

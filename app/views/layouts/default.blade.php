@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
     {{ HTML::style('styles/jquery.growl.css') }}
     {{ HTML::style('styles/main.css') }}
     {{ HTML::style('styles/icon-fonts/style.css') }}
@@ -26,7 +28,11 @@
 
     <ul class="title-area">
         <li class="name">
-            <h1>{{ link_to_route('home', 'Realty') }}</h1>
+            <h1>
+                <a class="realty-logo" href="{{ URL::route('home') }}">
+                    <span class="logo-kiwi">KIWI</span><span class="logo-realty">REALTY</span>
+                </a>
+            </h1>
         </li>
         <li class="toggle-topbar menu-icon">
             <a href="#"><span>Menu</span></a>
@@ -50,14 +56,16 @@
                 <li>{{ link_to_route('register', 'Register') }}</li>
                 <li>{{ link_to_route('login', 'Login') }}</li>
             @else
+                <li class="divider"></li>
                 <li class="has-dropdown">
-                    <a href="#">{{ Auth::user()->email }}</a>
+                    <a href="#" style="text-transform: none;">{{ Auth::user()->email }}</a>
                     <ul class="dropdown">
                         <li>{{ link_to_route('logout', 'Logout') }}</li>
                     </ul>
                 </li>
             @endif
-            <li><em>{{ link_to_route('admin.login', 'Admin') }}</em></li>
+            <li class="divider"></li>
+            <li>{{ link_to_route('admin.home', 'Admin', null, ['class' => 'admin-nav-link']) }}</li>
         </ul>
     </section>
 </nav>

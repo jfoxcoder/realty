@@ -52,23 +52,26 @@
                         {{ $l->suburb->town->name }}<br/>
                         {{ $l->suburb->town->region->name }}</td>
 
-                    <td>
+                    <td style="font-size: 24px;">
                         {{ link_to_route('admin.listings.edit',
-                                         'Edit', ['id' => $l->id],
-                                         ['class' => 'button tiny']) }}
+                                         '', ['id' => $l->id],
+                                         ['class' => 'icon-pencil icon-btn', 'title' => "Edit listing details"]) }}
 
                         {{ link_to_route('admin.photos.edit',
-                                         'Images',
+                                         '',
                                          ['id' => $l->id],
-                                         ['class' => 'button tiny']) }}
+                                         ['class' => 'icon-image icon-btn', 'title' => "Manage listing images"]) }}
 
-                        <button class="tiny alert button delete-listing-btn">Delete</button>
+                        <span class="icon-minus icon-btn delete-listing-btn" title="Permanently delete listing"></span>
                     </td>
                 </tr>
             @endforeach
         </tbody>
 
     </table>
+    <div class="pagination-centered">
+        {{ $listings->appends(Request::except('page'))->links() }}
+    </div>
 </div>
 @stop
 
