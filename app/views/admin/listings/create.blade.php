@@ -1,5 +1,5 @@
 @extends('layouts.admin')
-@section('title', 'Edit Property Listings')
+@section('title', 'Create Listing')
 
 @section('content')
 

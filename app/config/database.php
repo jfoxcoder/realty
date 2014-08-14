@@ -57,7 +57,7 @@ return array(
 			'host'      => '162.243.223.161',
 			'database'  => 'realty',
 			'username'  => 'forge',
-			'password'  => '3dFa8QIJMpyXbOyVkJ5T',
+			'password'  => getenv('DB_PASSWORD'),
 			'charset'   => 'utf8',
 			'collation' => 'utf8_general_ci',
 			'prefix'    => '',

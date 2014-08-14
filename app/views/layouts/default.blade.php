@@ -11,7 +11,7 @@
     {{ HTML::style('styles/main.css') }}
     {{ HTML::style('styles/icon-fonts/style.css') }}
 
-    <title>@yield('title') &ndash; Realty</title>
+    <title>@yield('title') &ndash; Kiwi Realty</title>
 
     <style>
         .flash {

@@ -14,7 +14,7 @@
 
 
 
-    <title>@yield('title') &ndash; Realty</title>
+    <title>@yield('title') &ndash; Kiwi Realty Admin</title>
 </head>
 
 <body>
